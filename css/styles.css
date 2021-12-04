@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-image: url('../img/background1.svg');
+    background-size: cover;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+/* estilo caja header*/
+
+header {
+    width: 100vw;
+    height: 15%;
+}
+
+section {
+    color: #242E53;
+}
+
+.list, .columna, ol {
+    list-style-type: none;
+}
+
+
+.prrafosN {
+    color: black;
+    font-size: 1em;
+    line-height: 1.625em;
+    padding: 5% 0%;
+}
+
+.letragris, .pgrises {
+    color:#B3B2B7;
+    font-size: 1em;
+    padding: 10px;
+}
+
+
+/* estilo caja nav*/
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: center;
+}
+
+#logonav {
+    width: 150px;
+    height: 24px;
+    cursor:pointer;
+}
+
+#menunav > a{
+    text-decoration: none;
+    color: #242E52;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.menu:hover {
+    background-color: #F3613C;
+    border-radius: 10px;
+    transition: background-color .5s;
+}
+
+#menunav > a:active {
+    color: rgba(255,255,255,0.5);
+    background-color: white;
+}
+
+#barras {
+    display:none;
+}
+
+
+/* estilo caja home*/
+
+h1 {
+    font-size: 3.625em;
+}
+
+.principales {
+    display:flex;
+    padding: 3% 3% 0% 3%;
+}
+
+.secundario {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/* estilo caja sobre nosotros*/
+
+.nosotros {
+    display:flex;
+    padding: 3% 3% 0% 3%;
+    height: 549px;
+    align-items: center;
+    justify-content: center;
+}
+
+.somos {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.diferencias {
+    width: 65%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitulo::before, .subtitulo1::before, .subtitulo2::before {
+    content:"01";
+    text-align: center;
+    align-content: center;
+    display:inline-block;
+    width: 5%;
+    padding: 10px 25px 10px 25px;
+    color:white;
+    background-color: #F3603C;
+    border-radius: 30px;
+}
+
+.subtitulo, .subtitulo1, .subtitulo2 {
+    font-weight: bold;
+}
+
+.tamañoh2 {
+    font-size: 2.25em;
+}
+
+.subtitulo1::before {
+    content:"02";
+}
+
+.subtitulo2::before {
+    content:"03";
+}
+
+.pgrises {
+    padding-left: 10%;
+}
+
+
+/* estilo caja testimonios*/
+
+#tituloT {
+    font-size: 2.45em;
+    padding: 2% 0% 8% 0%;
+}
+
+.testimonios {
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height: 20%;
+}
+
+.comentan {
+    background-color: #FAFAFA;
+    width: 30%;
+    position:relative;
+    padding-top: 3%;
+}
+
+.imgavatar {
+    position:absolute;
+    top: -20%;
+    right: 40%;
+}
+
+.comentario {
+    color:#B3B2B7;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.625em;
+}
+
+#tituloT, #botonT, .nombre {
+    text-align: center;
+}
+
+#botonT {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+/* estilo caja mas informacion*/
+
+.masinformacion {
+    background-image: url('../img/background2.svg');
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 7% 0% 7%;
+}
+
+#tituloMI {
+    color: white;
+    font-size: 2.5em;
+    width: 40%;
+}
+
+.botonmaMI {
+    color: #F3613C;
+    background-color: white;
+}
+
+.botonmaMI:hover {
+    transform:scale(1.25);
+}
+
+.botonmaMI:active {
+    box-shadow: 0px 4px 8px 0px #F3613C;
+    color: rgba(206, 78, 78, 0.25);
+}
+
+
+/*estilos caja footer*/
+
+footer {
+    background-color: #1E1E26;
+    font-size: 1em;
+    color: white;
+    line-height: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#iconos, #derechos {
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+.estiloForm {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    border-style: none;
+    padding-left: 7%;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-decoration: none;
+} 
+
+#derechos {
+    font-size: 0.8em;
+    color: #8C8C94;
+    right: 7%;
+}
+
+/* estilos botones*/
+
+
+.botonhome, .botonmenu {
+    color: white;
+    background-color:#F3613C;
+
+}
+
+.botonhome:hover {
+    transform:scale(1.25);
+}
+
+
+.botonmenu:hover {
+    transform:scale(1.25);
+}
+
+.botonmenu:active {
+    box-shadow: 0px 4px 8px 0px #F3613C;
+    color: rgba(255,255,255,0.5);
+}
+
+.botonhome, .botonmaMI, .botonmenu {
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+}
+
+.botonfooter, .decoracion {
+    background-color: #F3603B;
+    color: white;
+    width: 63px;
+    height: 43px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.botonfooter {
+    cursor:pointer;
+}
+
+.active {
+    color:white;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: #F3613C;
+}
+
+i {
+    font-size: 1.5em;
+    padding: 0.2em;
+}
+
+i:active {
+    color:#F3613C;
+}
+
+i:hover {
+    transform:scale(1.25);
+}
+
+input:valid {
+    color: black;
+}
+
+input:invalid {
+    color: red;
+}
+
+.botonfooter:hover {
+    transform:scale(1.25);
+}
+
+.botonfooter:active {
+    color: rgba(255,255,255,0.5);
+}
