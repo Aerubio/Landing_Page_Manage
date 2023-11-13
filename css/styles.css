@@ -14,7 +14,6 @@ body {
 /* estilo caja header*/
 
 header {
-    width: 100vw;
     height: 15%;
 }
 
@@ -165,7 +164,6 @@ h1 {
 .testimonios {
     display:flex;
     justify-content: center;
-    width: 100vw;
     height: 20%;
 }
 
